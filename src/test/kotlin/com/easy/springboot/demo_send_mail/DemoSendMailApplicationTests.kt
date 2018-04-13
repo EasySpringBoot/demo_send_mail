@@ -17,4 +17,14 @@ class DemoSendMailApplicationTests {
         MailTool.send()
     }
 
+    @Test
+    fun testSendHtml() {
+        MailTool.sendHtml()
+    }
+
+    @Test
+    fun testSendHtmlWithAttach() {
+        MailTool.sendHtmlWithAttach()
+    }
+
 }
